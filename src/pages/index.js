@@ -41,30 +41,6 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major">
-                  <h2>About Me</h2>
-                </header>
-                <p>
-                  A recent graduate of the General Assembly Web Development
-                  Immersive Course, working towards becoming a Web Developer...
-                </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="/introduction" className="button">
-                      Learn More
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <span className="image">
-                <img src={avatar} alt="profile pic" />
-              </span>
-            </div>
-          </section>
-
           <section id="first" className="main special">
             <header className="major">
               <h2>Recent Works</h2>
@@ -136,6 +112,30 @@ class Index extends React.Component {
                 </p>
               </li>
             </ul>
+          </section>
+
+          <section id="intro" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>About Me</h2>
+                </header>
+                <p>
+                  A recent graduate of the General Assembly Web Development
+                  Immersive Course, working towards becoming a Web Developer...
+                </p>
+                <ul className="actions">
+                  <li>
+                    <Link to="/introduction" className="button">
+                      Learn More
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <span className="image">
+                <img src={avatar} alt="profile pic" />
+              </span>
+            </div>
           </section>
         </div>
       </Layout>

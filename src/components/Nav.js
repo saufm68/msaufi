@@ -10,13 +10,13 @@ const Nav = props => (
       offset={-300}
     >
       <li>
-        <Scroll type="id" element="intro">
-          <a href="#">About Me</a>
+        <Scroll type="id" element="first">
+          <a href="#">Recent Works</a>
         </Scroll>
       </li>
       <li>
-        <Scroll type="id" element="first">
-          <a href="#">Recent Works</a>
+        <Scroll type="id" element="intro">
+          <a href="#">About Me</a>
         </Scroll>
       </li>
       <li>
