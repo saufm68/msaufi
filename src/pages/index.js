@@ -107,11 +107,9 @@ class Index extends React.Component {
                   <b>MalayMe</b>
                 </h2>
                 <p>
-                  A language learning platform to help users learn Malay. It
-                  contains a library of usesul videos for learning the language.
-                  It also has a Q&A platform where users can ask others
-                  questions regarding the language, encouraging a community
-                  based learning.
+                  A language learning platform to help users learn the Malay
+                  language, through watching videos and asking qustions on our
+                  Q&A platform.
                 </p>
               </li>
             </ul>
