@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 import HeaderGeneric from '../components/HeaderGeneric'
+import avatar from '../assets/images/avatar.jpg'
 import cover from '../assets/images/cover_Photo.jpeg'
 
 class Generic extends React.Component {
@@ -15,6 +17,9 @@ class Generic extends React.Component {
           <section id="content" className="main">
             <span className="image main">
               <img src={cover} alt="cover" />
+            </span>
+            <span className="image">
+              <img src={avatar} alt="profile pic" />
             </span>
             <h2>How I Started...</h2>
             <p>
@@ -38,6 +43,9 @@ class Generic extends React.Component {
               interact with.{' '}
             </p>
           </section>
+          <Link to="/" className="button">
+            Back
+          </Link>
         </div>
       </Layout>
     )
