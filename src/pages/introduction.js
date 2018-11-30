@@ -18,9 +18,6 @@ class Generic extends React.Component {
             <span className="image main">
               <img src={cover} alt="cover" />
             </span>
-            <span className="image">
-              <img src={avatar} alt="profile pic" />
-            </span>
             <h2>How I Started...</h2>
             <p>
               Since young I have always been intrigued by modern technology and
@@ -43,9 +40,6 @@ class Generic extends React.Component {
               interact with.{' '}
             </p>
           </section>
-          <Link to="/" className="button">
-            Back
-          </Link>
         </div>
       </Layout>
     )
