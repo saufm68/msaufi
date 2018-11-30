@@ -50,7 +50,7 @@ class Index extends React.Component {
                 <span className="image work">
                   <img className="project" src={trapped} alt="project1 pic" />
                   <div className="middle">
-                    <a href="https://saufm68.github.io/Trapped/">
+                    <a href="https://trap.netlify.com/">
                       <button className="primary">Visit Site</button>
                     </a>
                     <a href="https://github.com/saufm68/Trapped">
@@ -62,8 +62,8 @@ class Index extends React.Component {
                   <b>Trapped</b>
                 </h2>
                 <p>
-                  Arcade style game where players navigate through the map,
-                  avoiding enemies along the way, to get to the exit
+                  An arcade style game where players navigate through a map,
+                  avoiding enemies to get to the exit.
                 </p>
               </li>
               <li>
@@ -86,9 +86,9 @@ class Index extends React.Component {
                   <b>PlayGround</b>
                 </h2>
                 <p>
-                  Game blog for sharing your favourite games. Includes a mini
-                  game-maker platform for users to create simple pac-man-styled
-                  games.
+                  A game sharing platform, with built-in game-maker
+                  functionality, for users to share the games they created and
+                  get feedback from others.
                 </p>
               </li>
               <li>
@@ -107,8 +107,12 @@ class Index extends React.Component {
                   <b>MalayMe</b>
                 </h2>
                 <p>
-                  Platform for users to learn Malay through watching videos
-                  picked for them or through a community based Q&A portion.
+                  MalayMe is a language learning platform to help users learn
+                  Malay. The site contains two main features. The first being a
+                  library of usesul videos teaching the language. The other
+                  being a Q&A platform where users can ask others questions
+                  regarding the language, encouraging a community based
+                  learning.
                 </p>
               </li>
             </ul>
