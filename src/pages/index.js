@@ -10,6 +10,7 @@ import avatar from '../assets/images/avatar.jpg'
 import trapped from '../assets/images/trapped2.png'
 import playground from '../assets/images/playground2.png'
 import malayme from '../assets/images/malayme2.png'
+import vs from '../assets/images/visionyourself.png'
 
 class Index extends React.Component {
   constructor(props) {
@@ -110,6 +111,26 @@ class Index extends React.Component {
                   A language learning platform to help users learn the Malay
                   language, through watching videos and asking qustions on our
                   Q&A platform.
+                </p>
+              </li>
+              <li>
+                <span className="image work">
+                  <img className="project" src={vs} alt="project4 pic" />
+                  <div className="middle">
+                    <a href="https://vision-y.herokuapp.com/">
+                      <button className="primary">Visit Site</button>
+                    </a>
+                    <a href="https://github.com/saufm68/VisionYourself">
+                      <button className="secondary">Visit Repo</button>
+                    </a>
+                  </div>
+                </span>
+                <h2>
+                  <b>VisionYourself</b>
+                </h2>
+                <p>
+                  A platform for patients to get online prescription by doing an
+                  online DIY vision test and sending it to an optometrist.
                 </p>
               </li>
             </ul>
